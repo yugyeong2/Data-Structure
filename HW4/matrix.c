@@ -12,7 +12,7 @@ void multiply_matrix(int** X, int** Y, int** re, int m, int n, int p); //행렬�
 void free_matrix(int** X, int row); //메모리 해제
 
 int main() {
-    printf(" [----- [Park Yugyeong] [2022041028] -----]\n\n");
+    printf("[----- [Park Yugyeong] [2022041028] -----]\n\n");
 
     srand((unsigned)time(NULL)); //난수 생성
 
