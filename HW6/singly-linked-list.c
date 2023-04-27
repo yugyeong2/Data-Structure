@@ -6,7 +6,6 @@
  *  at Chungbuk National University
  */
 
-
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -20,7 +19,6 @@ typedef struct Node { //연결리스트의 노드 구조체
 typedef struct Head { //연결리스트의 첫 번째 노드를 가리키는 헤더 구조체
 	struct Node* first; //헤더가 가리키는 노드의 주소
 } headNode;
-
 
 /* 함수 리스트 */
 headNode* initialize(headNode* h); //헤더 노드 초기화
