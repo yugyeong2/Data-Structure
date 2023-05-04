@@ -9,7 +9,6 @@
  *
  */
 
-
 #include<stdio.h>
 #include<stdlib.h>
 /* 필요한 헤더파일 추가 if necessary */
