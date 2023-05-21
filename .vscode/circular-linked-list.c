@@ -118,6 +118,7 @@ int initialize(listNode** h) {
 	return 1;
 }
 
+
 /* 메모리 해제 */
 int freeList(listNode* h) {
 	listNode* p = h->rlink; //리스트를 탐색할 포인터 p는 첫 번째 노드를 가리킨다
