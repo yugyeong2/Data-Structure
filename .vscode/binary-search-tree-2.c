@@ -29,7 +29,6 @@ Node* queue[MAX_QUEUE_SIZE]; //큐 포인터 배열의 크기는 20
 int front = -1;
 int rear = -1;
 
-
 int initializeBST(Node** h);
 void recursiveInorder(Node* ptr);	  /* recursive inorder traversal */
 int insert(Node* head, int key);      /* insert a node to the tree */
