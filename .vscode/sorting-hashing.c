@@ -25,7 +25,6 @@ int shellSort(int *a);
 /* recursive function으로 구현 */
 int quickSort(int *a, int n);
 
-
 /* hash code generator, key % MAX_HASH_TABLE_SIZE */
 int hashCode(int key);
 
